@@ -30,6 +30,7 @@ set(sources
         src/ProfilingConfig.cpp
         src/ProfilingHook.cpp
         src/Papyrus.cpp
+        src/PapyrusAPI.cpp
         src/Main.cpp
 
         ${CMAKE_CURRENT_BINARY_DIR}/version.rc)

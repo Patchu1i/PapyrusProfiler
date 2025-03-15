@@ -90,7 +90,7 @@
             ],
             "displayName": "Debug",
             "description": "Debug build for testing.",
-            "generator": "Ninja",
+            "generator": "Visual Studio 17 2022",
             "binaryDir": "${sourceDir}/build/debug-msvc",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": {
@@ -110,7 +110,7 @@
             ],
             "displayName": "Release",
             "description": "Optimized release build.",
-            "generator": "Ninja",
+            "generator": "Visual Studio 17 2022",
             "binaryDir": "${sourceDir}/build/release-msvc",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": {
@@ -130,7 +130,7 @@
             ],
             "displayName": "Debug",
             "description": "Debug build for testing.",
-            "generator": "Ninja",
+            "generator": "Visual Studio 17 2022",
             "binaryDir": "${sourceDir}/build/debug-clang",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": {
@@ -150,7 +150,7 @@
             ],
             "displayName": "Release",
             "description": "Optimized release build.",
-            "generator": "Ninja",
+            "generator": "Visual Studio 17 2022",
             "binaryDir": "${sourceDir}/build/release-clang",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": {
